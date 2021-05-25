@@ -1,0 +1,156 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 1.3em;
+  overflow: hidden;
+  user-select: none;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+/*bottoni */
+button {
+  border: none;
+  padding: 0;
+  background-color: white;
+  color: #0000EE;
+  text-decoration: underline;
+  text-align: left;
+}
+
+a{
+  color: #0000EE;
+}
+
+img{
+  width: 100%;
+}
+
+.notAvailableButton {
+  font-variant: small-caps;
+  text-decoration: none;
+  color: silver;
+}
+
+.openChapterButton {
+  font-variant: small-caps;
+}
+
+/* per testo modificato da evidenziare */
+mark {
+  padding: 0.1em;
+  background-color: black;
+  color: white;
+  font-family: "Helvetica", sans-serif;
+  padding: .1em;
+}
+
+/*Set the row height to the viewport*/
+.row-height{
+  height: 100vh;
+}
+
+.left{
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.right{
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.mid{
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.row-height{
+  height: 99vh;
+}
+
+/* per visualizzare la selezione dei bottoni del menu chapter */
+.hiddenBookmark {
+  display: none;
+}
+
+.bookmark {
+  font-weight: bold;
+  color: #0000EE;
+}
+
+/*Remove the scrollbar from Chrome, Safari, Edge and IE*/
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+* {
+  -ms-overflow-style: none !important;
+}
+
+/* altro */
+.container-fluid{
+  margin-top: 8px;
+}
+
+.caption{
+  padding-top: 6px;
+}
+
+.censored{
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.centrato{
+  text-align: center;
+}
+
+.maiuscoletto{
+  font-variant: small-caps;
+}
+
+.prima-colonna{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#testo {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#testo p{
+  text-indent: 24px;
+}
+
+
+
+#testo-credits p{
+  text-indent: 24px;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#prima-colonna{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#credits{
+  padding-bottom: 22px;
+}
+
+/* .bottomright {
+  vertical-align: text-bottom;
+} */

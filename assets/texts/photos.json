@@ -1,0 +1,16 @@
+{
+  "photos" : [
+    {
+      "zero" : "",
+      "comandamenti0" : "<img src=\"assets/images/comandamenti/original.png\"><div class=\"caption\">(1) The Seven Commandments</div>",
+      "comandamenti3" : "<img src=\"assets/images/comandamenti/modified3.png\"><div class=\"caption\">(1) The Seven Commandments</div>",
+      "comandamenti5" : "<img src=\"assets/images/comandamenti/modified5.png\"><div class=\"caption\">(1) The Seven Commandments</div>",
+      "comandamenti7" : "<img src=\"assets/images/comandamenti/modified7.png\"><div class=\"caption\">(1) The Seven Commandments</div>",
+      "comandamenti10" : "<img src=\"assets/images/comandamenti/modified10.png\"><div class=\"caption\">(1) The Seven Commandments</div>",
+      "comandamenti15" : "<img src=\"assets/images/comandamenti/modified15.png\"><div class=\"caption\">(1) The Seven Commandments</div>",
+      "comandamenti17" : "<img src=\"assets/images/comandamenti/modified17.png\"><div class=\"caption\">(1) The <mark class=\"censored\">Seven</mark> <mark>Commandment &ensp;</mark></div>",
+
+      "two" : "<img src=\"assets/images/7comandamenti_2.png\"><div class=\"caption\">(description)</div>"
+    }
+  ]
+}
