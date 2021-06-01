@@ -151,6 +151,12 @@ mark {
   padding-bottom: 22px;
 }
 
-/* .bottomright {
-  vertical-align: text-bottom;
-} */
+.highphoto {
+  width: auto;
+  height: 40vh;
+}
+
+.nottoohighphoto {
+  width: auto;
+  height: 70vh;
+}

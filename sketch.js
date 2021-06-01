@@ -63,6 +63,7 @@ function setup() {
   noCanvas();
   dataText = dataChapter1;
   bookmark();
+  showPhoto();
   document.getElementById("testo").innerHTML = dataText.pages[1].original;
 }
 
@@ -1100,15 +1101,69 @@ function bookmark() {
 //immagini
 
 function showPhoto() {
-  if(currentChapter == 2 && currentPage == 6) {
-    changePhotoCommandments();
+  if(currentChapter == 1 && currentPage == 1) {
+      changePhoto11();
+  } else if(currentChapter == 2 && currentPage == 1) {
+      changePhoto21();
+  } else if(currentChapter == 2 && currentPage == 4) {
+      changePhoto24();
+  } else if(currentChapter == 2 && currentPage == 6) {
+      changePhotoCommandments();
+  } else if(currentChapter == 3 && currentPage == 1) {
+      changePhoto31();
+  } else if(currentChapter == 3 && currentPage == 5) {
+      changePhoto35();
+  } else if(currentChapter == 5 && currentPage == 1) {
+      changePhoto51();
+  } else if(currentChapter == 7 && currentPage == 6) {
+      changePhoto76();
+  } else if(currentChapter == 8 && currentPage == 4) {
+      changePhoto84();
+  } else if(currentChapter == 10 && currentPage == 4) {
+      changePhoto104();
   } else {
-    deletePhoto();
+      deletePhoto();
   }
 }
 
 function deletePhoto() {
   document.getElementById("photo").innerHTML = dataPhotos.photos[0].zero;
+}
+
+function changePhoto11() {
+  document.getElementById("photo").innerHTML = dataPhotos.photos[0].one;
+}
+
+function changePhoto21() {
+  document.getElementById("photo").innerHTML = dataPhotos.photos[0].eight;
+}
+
+function changePhoto24() {
+  document.getElementById("photo").innerHTML = dataPhotos.photos[0].eleven;
+}
+
+function changePhoto31() {
+  document.getElementById("photo").innerHTML = dataPhotos.photos[0].fourteen;
+}
+
+function changePhoto35() {
+  document.getElementById("photo").innerHTML = dataPhotos.photos[0].eighteen;
+}
+
+function changePhoto51() {
+  document.getElementById("photo").innerHTML = dataPhotos.photos[0].twentythree;
+}
+
+function changePhoto76() {
+  document.getElementById("photo").innerHTML = dataPhotos.photos[0].fourtythree;
+}
+
+function changePhoto84() {
+  document.getElementById("photo").innerHTML = dataPhotos.photos[0].fifty;
+}
+
+function changePhoto104() {
+  document.getElementById("photo").innerHTML = dataPhotos.photos[0].sixtynine;
 }
 
 function changePhotoCommandments() {
